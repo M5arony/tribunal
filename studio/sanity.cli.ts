@@ -1,6 +1,7 @@
 import {defineCliConfig} from 'sanity/cli'
 
 export default defineCliConfig({
+  studioHost: 'everyday-objects-tribunal',
   api: {
     projectId: 'yg3w8y8q',
     dataset: 'production'
